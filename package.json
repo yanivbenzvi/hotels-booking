@@ -4,9 +4,6 @@
     "private": true,
     "scripts": {
         "test": "cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --require @babel/register \"test/**/*.spec.js\"",
-        "dev": "vue-cli-service electron:serve",
-        "build": "vue-cli-service build",
-        "exec": "node --require @babel/register"
     },
     "dependencies": {},
     "devDependencies": {
@@ -22,7 +19,6 @@
         "chai-spies": "^1.0.0",
         "sinon": "^7.3.2",
         "cross-env": "^5.2.0",
-        "electron": "^4.0.8",
         "mocha": "^6.1.2"
     },
     "main": "dist_electron/bundled/background.js"
