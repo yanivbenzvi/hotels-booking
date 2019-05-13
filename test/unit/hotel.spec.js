@@ -36,10 +36,23 @@ describe('Hotel', () => {
         })
     })
 
-    describe('#getPriviousPrice',()=>{
-        it('retrieve the previous prices', ()=>{
-            expect(stub.price).to.be.eql(500)
+    describe('#getPriviousPrices',()=>{
+        it('retrieve the previous prices', async ()=>{
+            stub.id = 3
+            const result = await stub.getPriviousPrices()
+            console.log('bla bla',result[0])
+            expect(result).to.be.an('array').with.length(3)
         })
     })
+
+    describe('#getLastPrice',()=>{
+        it('retrieve the last price', async ()=>{
+            stub.id = 3
+            const result = await stub.getLastPrice()
+            expect(result).to.be.an('object')
+            expect(stub.Update_date).to.be.eql("2017-09-13")
+        })
+    })
+
 
 })

@@ -6,6 +6,7 @@
         "test": "cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --require @babel/register \"test/**/*.spec.js\""
     },
     "dependencies": {
+        "fs": "0.0.1-security",
         "jsonfile": "^5.0.0"
     },
     "devDependencies": {
