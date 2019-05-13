@@ -5,7 +5,9 @@
     "scripts": {
         "test": "cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --require @babel/register \"test/**/*.spec.js\""
     },
-    "dependencies": {},
+    "dependencies": {
+        "jsonfile": "^5.0.0"
+    },
     "devDependencies": {
         "@babel/cli": "^7.1.2",
         "@babel/core": "^7.1.2",
