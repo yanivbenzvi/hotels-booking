@@ -1,0 +1,29 @@
+{
+    "name": "hotels-booking",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "test": "cross-env NODE_ENV=test ./node_modules/mocha/bin/mocha --require @babel/register \"test/**/*.spec.js\"",
+        "dev": "vue-cli-service electron:serve",
+        "build": "vue-cli-service build",
+        "exec": "node --require @babel/register"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/node": "^7.0.0",
+        "@babel/polyfill": "^7.0.0-beta.49",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/register": "^7.0.0",
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
+        "chai": "^4.2.0",
+        "chai-spies": "^1.0.0",
+        "sinon": "^7.3.2",
+        "cross-env": "^5.2.0",
+        "electron": "^4.0.8",
+        "mocha": "^6.1.2"
+    },
+    "main": "dist_electron/bundled/background.js"
+}
