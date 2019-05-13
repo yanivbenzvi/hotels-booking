@@ -21,25 +21,4 @@ describe('Hotel', () => {
             'id', 'name', 'address', 'city', 'price', 'distanceFromCenter',
         ])
     })
-
-    describe('#updatePrice', () => {
-        it('update the price', () => {
-            expect(stub.price).to.be.eql(500)
-            stub.updatePrice(1000)
-            expect(stub.price).to.be.eql(1000)
-        })
-
-        it('ignore negative number', () => {
-            expect(stub.price).to.be.eql(500)
-            stub.updatePrice(-1000)
-            expect(stub.price).to.be.eql(500)
-        })
-    })
-
-    describe('#getPriviousPrice',()=>{
-        it('retrieve the previous prices', ()=>{
-            expect(stub.price).to.be.eql(500)
-        })
-    })
-
 })

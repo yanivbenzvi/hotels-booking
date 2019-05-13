@@ -1,0 +1,22 @@
+[
+    {"Id": 1, "Name": "Hilton Me", "Distance_from_city": 10, "Address": "Bnei zion 5", "City": "Jerusalem"},
+    {"Id": 2, "Name": "Royal B", "Distance_from_city": 12, "Address": "Mayer 4", "City": "Jerusalem"},
+    {"Id": 3, "Name": "Stay Inn", "Distance_from_city": 3, "Address": "Golda 45", "City": "Jerusalem"},
+    {"Id": 4, "Name": "Inn ++", "Distance_from_city": 4, "Address": "Teva 56", "City": "Jerusalem"},
+    {"Id": 5, "Name": "Gate Hotel", "Distance_from_city": 1.5, "Address": "Tomer Rot 4", "City": "Jerusalem"},
+    {"Id": 6, "Name": "Gate Inn ", "Distance_from_city": 6.6, "Address": "Ramon 96", "Jerusalem"},
+    {"Id": 7, "Name": "Couco", "Distance_from_city": 1.7, "Address": "Kalneter 56", "City": "Jerusalem"},
+    {"Id": 8, "Name": "Tomaszow Mazowiecki", "Distance_from_city": 1.7, "Address": "Kalneter 98", "City": "Jerusalem"},
+    {"Id": 9, "Name": "Pleven", "Distance_from_city": 9, "Address": "Regev Moshe 98", "City": "Jerusalem"},
+    {"Id": 10, "Name": "Marialva", "Distance_from_city": 10, "Address": "Malka 78", "City": "Jerusalem"},
+    {"Id": 11, "Name": "Haimen", "Distance_from_city": 1.1, "Address": "Bnei Yehuda 6", "City": "Jerusalem"},
+    {"Id": 12, "Name": "Baocun", "Distance_from_city": 1.2, "Address": "Ramot 5", "City": "Jerusalem"},
+    {"Id": 13, "Name": "San INN", "Distance_from_city": 13, "Address": "Bnei brit 89", "Jerusalem"},
+    {"Id": 14, "Name": "Konso", "Distance_from_city": 6.4, "Address": "Queen María", "City": "Jerusalem"},
+    {"Id": 15, "Name": "Gizo", "Distance_from_city": 6.9, "Address": "Scott King 69", "City": "Jerusalem"},
+    {"Id": 16, "Name": "Santa María de Caparo", "Distance_from_city": 9.6, "Address": "Ron 56", "City": "Jerusalem"},
+    {"Id": 17, "Name": "Huasta", "Distance_from_city": 8.2, "Address": "Moshe Cohen 78", "City": "Jerusalem"},
+    {"Id": 18, "Name": "La Mesa", "Distance_from_city": 18, "Address": "Geva 8", "City": "Jerusalem"},
+    {"Id": 19, "Name": "Damietta", "Distance_from_city": 19, "Address": "Dror 90", "City": "Jerusalem"},
+    {"Id": 20, "Name": "Ponte", "Distance_from_city": 20, "Address": "Rosh 32", "City": "Jerusalem"}
+]
