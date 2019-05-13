@@ -9,7 +9,7 @@
     },
     {
         "Id": 3, "Name": "Stay Inn", "Distance_from_city": 3, "Cluster": "B", "price": "$788.25", "Address": "Golda 45",
-        "City": "Jerusalem"
+        "City": "Jerusalem"npm install
     },
     {
         "Id": 4, "Name": "Inn ++", "Distance_from_city": 4, "Cluster": "B", "price": "$255.45", "Address": "Teva 56",
