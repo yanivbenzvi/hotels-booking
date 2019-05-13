@@ -23,8 +23,8 @@ describe('SearchHotel', () => {
         //stub = new SearchHotel({})
     })
     describe('searchByPrice', () => {
-        it('bla',()=>{
-            expect(1).to.be.eql(1)
+        it('retrive result',()=>{
+            //expect(1).to.be.eql(1)
         })
     })
 
