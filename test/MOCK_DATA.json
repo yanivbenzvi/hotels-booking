@@ -21,7 +21,7 @@
     },
     {
         "Id": 6, "Name": "Gate Inn ", "Distance_from_city": 6.6, "Cluster": "B", "price": "$800.99",
-        "Address": "Ramon 96", "Jerusalem"
+        "Address": "Ramon 96", "City": "Jerusalem"
     },
     {
         "Id": 7, "Name": "Couco", "Distance_from_city": 1.7, "Cluster": "A", "price": "$200.05",
