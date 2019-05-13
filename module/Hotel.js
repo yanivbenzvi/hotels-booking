@@ -52,8 +52,7 @@ export class Hotel {
         console.log(hotelData)
          return hotelData[0]
         */
-        const allPrices = this.getPriviousPrices()
-        console.log(allPrices)
+        const allPrices = await this.getPriviousPrices()
         return allPrices[0]
     }
 }

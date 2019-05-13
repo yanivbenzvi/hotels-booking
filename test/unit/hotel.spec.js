@@ -40,7 +40,6 @@ describe('Hotel', () => {
         it('retrieve the previous prices', async ()=>{
             stub.id = 3
             const result = await stub.getPriviousPrices()
-            console.log('bla bla',result[0])
             expect(result).to.be.an('array').with.length(3)
         })
     })
@@ -50,7 +49,7 @@ describe('Hotel', () => {
             stub.id = 3
             const result = await stub.getLastPrice()
             expect(result).to.be.an('object')
-            expect(stub.Update_date).to.be.eql("2017-09-13")
+            expect(result.Update_date).to.be.eql("2017-09-13")
         })
     })
 
